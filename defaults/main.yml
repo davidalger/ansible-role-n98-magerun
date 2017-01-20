@@ -1,0 +1,4 @@
+n98_magerun:
+  install_name: n98-magerun
+  download_url: http://files.magerun.net/n98-magerun-latest.phar
+  shortcut_name: mr
