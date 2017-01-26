@@ -1,4 +1,11 @@
-n98_magerun:
-  install_name: n98-magerun
-  download_url: http://files.magerun.net/n98-magerun-latest.phar
-  shortcut_name: mr
+---
+n98_magerun_version: 2
+
+n98_magerun_url_defaults:
+  1: http://files.magerun.net/n98-magerun-latest.phar
+  2: http://files.magerun.net/n98-magerun2-latest.phar
+
+n98_magerun_install_name: n98-magerun{% if n98_magerun_version > 1 %}{{ n98_magerun_version }}{% endif %}
+n98_magerun_download_url: "{{ n98_magerun_url_defaults[n98_magerun_version] }}"
+
+n98_magerun_shortcut_name: mr
