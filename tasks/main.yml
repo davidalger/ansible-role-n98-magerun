@@ -10,5 +10,3 @@
     path: /usr/local/bin/{{ n98_magerun_shortcut_name }}
     src: /usr/local/bin/{{ n98_magerun_install_name }}
     state: link
-
-- debug: var=n98_magerun_version
