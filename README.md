@@ -1,6 +1,6 @@
 # Ansible Role: n98-magerun
 
-[![Build Status](https://travis-ci.org/davidalger/ansible-role-n98-magerun.svg?branch=master)](https://travis-ci.org/davidalger/ansible-role-n98-magerun)
+[![Build Status](https://travis-ci.com/davidalger/ansible-role-n98-magerun.svg?branch=master)](https://travis-ci.com/davidalger/ansible-role-n98-magerun)
 
 Installs [n98-magerun](https://magerun.net) CLI tool for use with Magento 1 or Magento 2.
 
